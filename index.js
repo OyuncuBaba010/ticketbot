@@ -20,7 +20,7 @@ const client = new Client({
 
 // --- AYARLARIN (FIXED) ---
 const config = {
-    token: 'MTQ2NTg3MzU1MzAwOTE1MjAzNA.G1_9sy.WUNeGljeRChH-EjsiQ1-7BwpCGEgrn3cDYQqWw',
+    token: 'MTQ2NTg3MzU1MzAwOTE1MjAzNA.GxDaOI.3iSrdphkRZ17gOR13JD18GpLZDsgO0IqWG9RU8',
     categoryId: '1465857842056790108',
     logChannelId: '1465877904700473497',
     adminRoleId: '1465857831663042635', // BURAYI DOLDURMAYI UNUTMA
@@ -122,5 +122,6 @@ client.on('interactionCreate', async (interaction) => {
         }
     }
 });
+
 
 client.login(config.token);
